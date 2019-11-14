@@ -1,2 +1,8 @@
 # Mechanical-MNIST
-A benchmark dataset for mechanical meta-models + the associated code 
+Mechanical-MNIST is a benchmark dataset for mechanical meta-models
+
+Here we share:
+1) the code to generate the data
+2) the data
+3) data access tutorial
+4) preliminary predictive models
