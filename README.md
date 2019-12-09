@@ -21,7 +21,7 @@ The full dataset is hosted by OpenBU with permanent link https://hdl.handle.net/
 
 *mnist_img_test.txt.zip* -- the MNIST test bitmaps flattened and zipped (use python reshape((10000,28,28))) to get bitmaps
 
-*summary_psi_train_all.txt* -- total change in free energy &#916 &psi at each step of applied displacement, training dataset, dimension 60K x 13 (call [:,12]) to get final step 
+*summary_psi_train_all.txt* -- total change in free energy :Delta: &psi at each step of applied displacement, training dataset, dimension 60K x 13 (call [:,12]) to get final step 
 
 *summary_psi_test_all.txt* -- total change in free energy &Delta &psi at each step of applied displacement, test dataset, dimension 10K x 13 (call [:,12]) to get final step 
 
