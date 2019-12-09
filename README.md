@@ -15,7 +15,14 @@ The full dataset is hosted by OpenBU with permanent link https://hdl.handle.net/
 
 *FEA_test_FEniCS.py* -- code to generate FEA simulation test dataset
 
-**2) a small subset of the data (full dataset: https://hdl.handle.net/2144/38693)**
+**2) a subset of the data (full dataset: https://hdl.handle.net/2144/38693)**
 
+*mnist_img_train.txt.zip* -- the MNIST training bitmaps flattened and zipped (use python reshape((60000,28,28))) to get bitmaps
+
+*mnist_img_test.txt.zip* -- the MNIST test bitmaps flattened and zipped (use python reshape((10000,28,28))) to get bitmaps
+
+*summary_psi_train_all.txt* -- total change in free energy $\psi$ at each step of applied displacement, training dataset, dimension 60K x 13 (call [:,12]) to get final step 
+
+*summary_psi_test_all.txt* -- total change in free energy $\psi$ at each step of applied displacement, test dataset, dimension 10K x 13 (call [:,12]) to get final step 
 
 **3) the code used to create the metamodels in the paper "Mechanical MNIST: a benchmark dataset for mechanical metamodels" (will link to the paper in the near future)**
