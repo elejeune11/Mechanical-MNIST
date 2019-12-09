@@ -26,3 +26,18 @@ The full dataset is hosted by OpenBU with permanent link https://hdl.handle.net/
 *summary_psi_test_all.txt* -- total change in free energy $\psi$ at each step of applied displacement, test dataset, dimension 10K x 13 (call [:,12]) to get final step 
 
 **3) the code used to create the metamodels in the paper "Mechanical MNIST: a benchmark dataset for mechanical metamodels" (will link to the paper in the near future)**
+
+*set_up_input_data.py* -- import and save the data to be used to train the neural networks 
+
+*nn_regress_psi_fnn.py* -- train a feedforward neural network to predict \Delta \psi from MNIST bitmap with PyTorch
+
+*nn_regress_psi_cnn.py* -- train a convolutional neural network to predict \Delta \psi from MNIST bitmap with PyTorch
+
+*pytorch_model_make_predictions.py* -- evaluate the PyTorch models on the test and training data 
+
+*predict_disp_MLPR.py* -- train a MLPR model to predict final displacement from tiny initial displacement with scikit-learn
+
+*predict_bitmap_MLPR.py* -- train a MLPR model to predict MNIST bitmap from final displacement with scikit-learn
+
+Additional files for recording model results and plotting: *el_papers.mplstyle*, *plot_full_field.py*, *plot_nn_error.py*, 
+
