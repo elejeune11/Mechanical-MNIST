@@ -1,9 +1,9 @@
-## Mechanical-MNIST
+### Mechanical-MNIST
 Mechanical-MNIST is a benchmark dataset for mechanical meta-models
 
 The full dataset is hosted by OpenBU with permanent link https://hdl.handle.net/2144/38693
 
-## This repository contains the following
+# This repository contains the following
 # 1) the code used to generate the dataset
 
 
