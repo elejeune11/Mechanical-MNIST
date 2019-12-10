@@ -9,8 +9,7 @@ The full dataset is hosted by OpenBU with permanent link https://hdl.handle.net/
 
 The dataset can be downloaded with the following commands: 
 
-<pre><code>
-wget https://open.bu.edu/bitstream/handle/2144/38693/MNIST_input_files.zip
+<pre><code> wget https://open.bu.edu/bitstream/handle/2144/38693/MNIST_input_files.zip
 wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_psi_results.zip
 wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_rxnforce_results.zip
 wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_step1.zip
@@ -24,8 +23,7 @@ wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_st
 wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_step9.zip
 wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_step10.zip
 wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_step11.zip
-wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_step12.zip
-</code></pre>
+wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_step12.zip </code></pre>
 
 
 ## This repository contains the following:
