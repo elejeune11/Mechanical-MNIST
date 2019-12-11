@@ -28,7 +28,7 @@ wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_st
 
 ## This repository contains the following:
 
-**1) the code used to generate the dataset**
+# 1) the code used to generate the dataset
 
 *input_data* -- folder containing 20 example MNIST bitmaps (10 test, 10 train) 
 
