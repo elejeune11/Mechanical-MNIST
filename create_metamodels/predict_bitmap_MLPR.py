@@ -75,7 +75,5 @@ print('MPE train:', median_percent_error_test )
 np.save('MLPR_bitmap_from_final_disp_train_predict',y_train_predict)
 np.save('MLPR_bitmap_from_final_disp_test_predict',y_test_predict)
 
-# MAE train: 1.3546670964471024
-# MAE test: 1.346438257259589
-# MPE train: 57.36435320270732
-# MPE train: 56.58631362323895
+# MAE train: 4.316747462473323
+# MAE test: 4.309410773600987
