@@ -42,17 +42,17 @@ wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_st
 
 *mnist_img_test.txt.zip* -- the MNIST test bitmaps flattened and zipped (use python reshape((10000,28,28))) to get bitmaps
 
-*summary_psi_train_all.txt* -- total change in free energy :Delta: &psi at each step of applied displacement, training dataset, dimension 60K x 13 (call [:,12]) to get final step 
+*summary_psi_train_all.txt* -- total change in strain energy at each step of applied displacement, training dataset, dimension 60K x 13 (call [:,12]) to get final step 
 
-*summary_psi_test_all.txt* -- total change in free energy &Delta &psi at each step of applied displacement, test dataset, dimension 10K x 13 (call [:,12]) to get final step 
+*summary_psi_test_all.txt* -- total change in strain energy at each step of applied displacement, test dataset, dimension 10K x 13 (call [:,12]) to get final step 
 
 **3) the code used to create the metamodels in the paper "Mechanical MNIST: a benchmark dataset for mechanical metamodels" (will link to the paper in the near future)**
 
 *set_up_input_data.py* -- import and save the data to be used to train the neural networks 
 
-*nn_regress_psi_fnn.py* -- train a feedforward neural network to predict &Delta &psi from MNIST bitmap with PyTorch
+*nn_regress_psi_fnn.py* -- train a feedforward neural network to predict total change in strain energy from MNIST bitmap with PyTorch
 
-*nn_regress_psi_cnn.py* -- train a convolutional neural network to predict &Delta &psi from MNIST bitmap with PyTorch
+*nn_regress_psi_cnn.py* -- train a convolutional neural network to predict total change in strain energy from MNIST bitmap with PyTorch
 
 *pytorch_model_make_predictions.py* -- evaluate the PyTorch models on the test and training data 
 
