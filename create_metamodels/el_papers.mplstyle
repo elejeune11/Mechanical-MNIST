@@ -1,0 +1,37 @@
+# Set all colors to grayscale
+# Note: strings of float values are interpreted by matplotlib as gray values.
+
+
+lines.color: black
+patch.facecolor: gray
+patch.edgecolor: black
+
+text.color: black
+
+axes.facecolor: white
+axes.edgecolor: black
+axes.labelcolor: black
+# black to light gray
+axes.prop_cycle: cycler('color', ['0.00', '0.40', '0.60', '0.70','0.9'])
+
+lines.linewidth: 3.0
+
+font.size: 20.0
+
+xtick.color: black
+ytick.color: black
+
+grid.color: (.5,.5,.5)
+grid.linewidth: .25
+grid.linestyle: :
+
+
+figure.facecolor: 0.75
+figure.edgecolor: white
+
+image.cmap: gray
+
+axes.grid: True
+
+savefig.facecolor: white
+savefig.edgecolor: white
