@@ -46,6 +46,8 @@ wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_st
 
 *summary_psi_test_all.txt* -- total change in strain energy at each step of applied displacement, test dataset, dimension 10K x 13 (call [:,12]) to get final step 
 
+NOTE: This dataset is distributed under the terms of the Creative Commons Attribution-ShareAlike 3.0 License. The original MNIST bitmaps are from Yann LeCun (Courant Institute, NYU) and Corinna Cortes (Google Labs, New York) on PyMVPA (http://www.pymvpa.org/datadb/mnist.html) licensed with https://creativecommons.org/licenses/by-sa/3.0. 
+
 ## 3) the code used to create the metamodels in the paper "Mechanical MNIST: a benchmark dataset for mechanical metamodels" (will link to the paper in the near future)
 
 *set_up_input_data.py* -- import and save the data to be used to train the neural networks 
