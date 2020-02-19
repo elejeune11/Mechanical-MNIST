@@ -47,7 +47,7 @@ wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_st
 
 *FEA_test_FEniCS.py* -- code to generate FEA simulation test dataset
 
-## 2) a subset of the data (full dataset: https://hdl.handle.net/2144/38693)
+## 2) a subset of the data (subset of the Uniaxial Extension full dataset found at: https://hdl.handle.net/2144/38693)
 
 *mnist_img_train.txt.zip* -- the MNIST training bitmaps flattened and zipped (use python reshape((60000,28,28))) to get bitmaps
 
