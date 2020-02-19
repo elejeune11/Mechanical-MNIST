@@ -8,9 +8,17 @@ In ``Mechanical MNIST - Uniaxial Extension" (the example featured here), the bot
 
 # Full dataset
 
-The full dataset is hosted by OpenBU with permanent link https://hdl.handle.net/2144/38693
+The full dataset is hosted by OpenBU. Link to the collection: https://open.bu.edu/handle/2144/39371
 
-The dataset can be downloaded with the following commands: 
+Link to ``Mechanical MNIST -- Uniaxial Extension'': https://open.bu.edu/handle/2144/38693
+
+Link to ``Mechanical MNIST -- Equibiaxial Extension'': https://open.bu.edu/handle/2144/39428
+
+Link to ``Mechanical MNIST -- Confined Compression'': https://open.bu.edu/handle/2144/39427
+
+Link to ``Mechanical MNIST -- Shear'': https://open.bu.edu/handle/2144/39429
+
+As an example, the ``Uniaxial Extension" dataset can be downloaded with the following commands: 
 
 <pre><code>wget https://open.bu.edu/bitstream/handle/2144/38693/MNIST_input_files.zip
 wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_psi_results.zip
