@@ -1,11 +1,4 @@
 ##########################################################################################
-# todo list:
-#		-- make loop 
-#		-- force output (what type of force is it?)
-#		-- output new positions of each pixel center
-#		-- double check bitmap especially leq
-#		-- mesh refinement
-##########################################################################################
 # import necessary modules (list of all simulation running modules)
 ##########################################################################################
 import matplotlib.pyplot as plt
