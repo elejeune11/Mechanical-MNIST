@@ -1,11 +1,4 @@
 ##########################################################################################
-# todo list:
-#		-- make loop 
-#		-- force output (what type of force is it?)
-#		-- output new positions of each pixel center
-#		-- double check bitmap especially leq
-#		-- mesh refinement
-##########################################################################################
 # import necessary modules (list of all simulation running modules)
 ##########################################################################################
 import matplotlib.pyplot as plt
@@ -217,7 +210,6 @@ list_rxn = []
 list_psi = [] 
 
 # --> run the loop
-#disp_val = [0.0,1.0,2.0,3.0,4.0,5.0,6.0,7.0,8.0,9.0,10.0,11.0,12.0,13.0,14.0]
 disp_val = [0.0, 0.001, 0.01, 0.1, 0.5, 1.0, 2.0, 4.0, 6.0, 8.0, 10.0, 12.0, 14.0]
 
 
