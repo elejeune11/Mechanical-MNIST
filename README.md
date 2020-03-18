@@ -59,7 +59,7 @@ wget https://open.bu.edu/bitstream/handle/2144/38693/FEA_displacement_results_st
 
 NOTE: This dataset is distributed under the terms of the Creative Commons Attribution-ShareAlike 3.0 License. The original MNIST bitmaps are from Yann LeCun (Courant Institute, NYU) and Corinna Cortes (Google Labs, New York) on PyMVPA (http://www.pymvpa.org/datadb/mnist.html) licensed with https://creativecommons.org/licenses/by-sa/3.0. 
 
-## 3) the code used to create the metamodels in the paper "Mechanical MNIST: a benchmark dataset for mechanical metamodels" (will link to the paper in the near future)
+## 3) the code used to create the metamodels in the paper "Mechanical MNIST: a benchmark dataset for mechanical metamodels" (https://www.sciencedirect.com/science/article/pii/S2352431620300341)
 
 *set_up_input_data.py* -- import and save the data to be used to train the neural networks 
 
